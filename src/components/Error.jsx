@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
-// scss
+ scss
 import "../style/error.scss";
 
 export default function Error() {
