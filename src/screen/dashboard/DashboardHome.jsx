@@ -1,4 +1,4 @@
-// style
+style
 import "../../style/dashboardHome.scss";
 
 export default function DashboardHome() {
