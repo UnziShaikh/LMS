@@ -28,7 +28,7 @@ export default function Login() {
         alert(_);
         setError("");
         navigate("/");
-        // window.onload(() => {console.log("page load")});
+       window.onload(() => {console.log("page load")});
       })
       .catch((_) => {
         setError(_);
