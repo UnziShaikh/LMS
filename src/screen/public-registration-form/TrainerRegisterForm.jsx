@@ -2,7 +2,7 @@ import { useState } from "react";
 import SMInput from "../../components/SMInput";
 import { addItem } from "../../config/FirebaseMethods";
 
-// style
+ style
 import "../../style/trainerRgisterForm.scss";
 
 export default function TrainerRegisterForm() {
