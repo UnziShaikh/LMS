@@ -8,7 +8,7 @@ import {
   updateItem,
 } from "../../../../config/FirebaseMethods";
 
-// import "../";
+ import "../";
 export default function UpdateStudentRegistrationForm() {
   let [userInfo, setUserInfo] = useState({
     firstName: "",
