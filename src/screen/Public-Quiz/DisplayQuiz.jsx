@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
-// style
+ style
 import "../../style/displayQuiz.scss";
 
 export default function DisplayQuiz() {
