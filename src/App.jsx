@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-// components
+components
 import Boilerplate from "./components/Boilerplate";
 import Home from "./screen/Home";
 import Login from "./screen/authentication/Login";
