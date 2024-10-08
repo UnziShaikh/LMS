@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { uploadImage } from "../../../config/FirebaseMethods";
 
-// style
+ style
 import "../../../style/createQuizHome.scss";
 
 export default function CreateQuizHome() {
