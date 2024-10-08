@@ -52,15 +52,15 @@ export default function CreateCourse() {
 
     setWating("wating...");
 
-    // console.log(currentImage);
+     console.log(currentImage);
 
      uploadImage(currentImage, "images", data, "course")
-    //   .then((_) => {
-    //     console.log(_);
-    //     setWating("");
-  //    alert("Successfully Added");
-    //   })
-    //   .catch((_) => console.log(_));
+       .then((_) => {
+         console.log(_);
+         setWating("");
+      alert("Successfully Added");
+      })
+       .catch((_) => console.log(_));
 
     updateItem(data, "course", data.key)
       .then((_) => {
@@ -147,10 +147,10 @@ export default function CreateCourse() {
         <option value="no">no</option>
       </select>
 
-      {/* <input
+       <input
           type="file"
           onChange={(e) => setCurrentImage(e.target.files[0])}
-        /> */}
+        /> 
 
       {wating ? (
         <button>{wating}</button>
