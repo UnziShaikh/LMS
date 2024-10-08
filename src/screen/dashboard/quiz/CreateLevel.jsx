@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { addItem } from "../../../config/FirebaseMethods";
 
-// style
+ style
 import "../../../style/createLevel.scss";
 
 export default function AddLevel() {
