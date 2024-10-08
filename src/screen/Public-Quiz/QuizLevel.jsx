@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { getItem } from "../../config/FirebaseMethods";
 
-// style
+ style
 import "../../style/quizLevel.scss";
 
 export default function QuizLevel() {
