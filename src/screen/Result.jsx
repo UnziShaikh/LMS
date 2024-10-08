@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getItem } from "../config/FirebaseMethods";
 
-// style
+ style
 import "../style/courseResult.scss";
 
 export default function ShowResultHome() {
