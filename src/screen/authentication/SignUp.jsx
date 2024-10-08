@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { createUser } from "../../config/FirebaseMethods";
 
-// style
+ style
 import "../../style/login.scss";
 
 export default function SignUp() {
