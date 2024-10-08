@@ -54,11 +54,11 @@ export default function CreateCourse() {
 
     // console.log(currentImage);
 
-    // uploadImage(currentImage, "images", data, "course")
+     uploadImage(currentImage, "images", data, "course")
     //   .then((_) => {
     //     console.log(_);
     //     setWating("");
-    //     alert("Successfully Added");
+  //    alert("Successfully Added");
     //   })
     //   .catch((_) => console.log(_));
 
