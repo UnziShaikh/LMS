@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { user_is_signin, signOutUser } from "../config/FirebaseMethods";
 
-// style
+ style
 import "../style/navbar.scss";
 
 export default function Navbar() {
